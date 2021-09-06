@@ -1,0 +1,21 @@
+.header{
+background: blueviolet;
+}
+.main{
+font-size: larger;    
+background: tomato;
+}
+.header__h1{
+text-align: center;
+}
+
+.main__p{
+    text-align: justify;
+    border: 2px solid black;
+}
+
+.main__p--resaltar{
+    font-size: smaller;
+    font-family: 'Courier New', Courier, monospace; 
+    background: yellowgreen;   
+}
