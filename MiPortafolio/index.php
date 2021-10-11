@@ -12,7 +12,7 @@
 
 </head>
 <body>
-    <!-- Navbar -->
+    <!-- Barra del Menu -->
     <header>
         <a href="#" class="logo">Brayan Rodríguez.</a>
 
@@ -47,32 +47,35 @@
         </div>
     </section>
 
-    <!-- About -->
+    <!-- Acerca de -->
     <section class="about" id="about">
         <div class="heading">
             <h2>¿Quien soy yo?</h2>
             <span>Una pequeña introducción acerca de mi</span>
         </div>
 
-        <!-- About Content -->
+        <!-- Contenido Acerca de -->
         <div class="about-container">
             <div class="about-img">
                 <img src="img/about.jpg" alt="">
             </div>
             <div class="about-text">
-                <p>Un gusto tenerte aquí, me llamo Brayan, soy estudiante de ADSI, tengo 19. Hace un año y medio aproximadamente conocí el mundo de la programación y el desarrollo web, se me da muy bien la verdad. Aquí encontraras algunas cositas que he realizado a lo largo de mi carrera y proyectos que ire desarrollando. No soy de beber mucho café como muchos desarrolladores y programadores lo hacen, yo me mantengo despierto con algunos vasos de Pepsi, por cierto, me encantan los videojuegos. </p>
+                <p>Para mi es un gusto tenerte aquí, parece que en relidad si quieres saber acerca de mí... Bueno, me llamo Brayan, soy estudiante de ADSI, tengo 19. Hace un año y medio aproximadamente conocí el mundo de la programación y el desarrollo web, se me da muy bien la verdad, he aprendido acerca del manejo y sintaxis de varios lenguajes de programación. Aquí encontraras algunas cositas que he realizado a lo largo de mi carrera y proyectos que ire desarrollando. Me mantengo despierto con algunos vasos de Pepsi cuando programo, por cierto, me encantan los videojuegos. </p>
                 <div class="information">
-                    <!-- Box 1 -->
+
+                    <!-- Caja 1 -->
                     <div class="info-box">
                         <i class='bx bxs-user' ></i>
                         <span>Brayan Andres Rodríguez</span>
                     </div>
-                    <!-- Box 2 -->
+
+                    <!-- Caja 2 -->
                     <div class="info-box">
                         <i class='bx bxs-phone' ></i>
                         <span>+57 321 9666787</span>
                     </div>
-                    <!-- Box 3 -->
+
+                    <!-- Caja 3 -->
                     <div class="info-box">
                         <i class='bx bxs-envelope' ></i>
                         <span>barodriguez2857@misena.edu.co</span>
@@ -90,70 +93,42 @@
         </div>
         <div class="services-content">
 
-            <!-- Box 1 -->
+            <!-- Caja 1 -->
             <div class="services-box">
                 <i class='bx bx-code-alt' ></i>
                 <h3>JavaScript. Algunos conceptos y ejercicios.</h3>
-                <a href="#">Mira lo que sé de JS</a>
+                <a href="Lenguajes/javascriptdef.php">Mira lo que sé de JS</a>
             </div>
 
-            <!-- Box 1 -->
+            <!-- Caja 2
             <div class="services-box">
                 <i class='bx bx-code-alt' ></i>
                 <h3>PHP. Algunos conceptos y ejercicios.</h3>
                 <a href="#">Mira lo que sé de PHP</a>
-            </div>
+            </div> -->
 
-            <!-- Box 2 -->
+            <!-- Caja 3 -->
             <div class="services-box">
                 <i class='bx bx-server' ></i>
                 <h3>¿Manuales de aplicación? Yo podria ayudarte con eso.  </h3>
-                <a href="#">Leer más</a>
+                <a href="UserManual/indexmanual.php">Saber más</a>
             </div>
 
-            <!-- Box 3 -->
+            <!-- Caja 4 -->
             <div class="services-box">
                 <i class='bx bx-brush' ></i>
                 <h3>¿Sabes que es un CRUD? Yo he desarrollado uno.</h3>
-                <a href="#">Echemosle un vistazo</a>
+                <a href="/MiPortafolio/CRUD/juego.php">Echemosle un vistazo</a>
             </div>
 
         </div>
     </section>
 
-    <!-- Portfolio -->
-    <section class="portfolio" id="portfolio">
-        <div class="heading">
-            <h2>Portafolio</h2>
-            <span>Mis proyectos recientes</span>
-        </div>
-        <div class="portfolio-content">
-            <div class="portfolio-img">
-                <img src="img/p1.jpg" alt="">
-            </div>
-            <div class="portfolio-img">
-                <img src="img/p2.jpg" alt="">
-            </div>
-            <div class="portfolio-img">
-                <img src="img/p3.jpg" alt="">
-            </div>
-            <div class="portfolio-img">
-                <img src="img/p4.jpg" alt="">
-            </div>
-            <div class="portfolio-img">
-                <img src="img/p5.jpg" alt="">
-            </div>
-            <div class="portfolio-img">
-                <img src="img/p6.jpg" alt="">
-            </div>
-            
-        </div>
-    </section>
-    <!-- Contact -->
+    <!-- Contacto -->
     <section class="contact" id="contact">
         <div class="heading">
             <h2>Mi Contacto</h2>
-            <span>¿Enserio quieres contactar conmigo?</span>
+            <span>¿Enserio te gustaría contactar conmigo!?</span>
         </div>
         <div class="contact-form">
             <form action="">
@@ -164,7 +139,8 @@
             </form>
         </div>
     </section>
-    <!-- Footer -->
+
+    <!-- Pie de Pagina -->
     <div class="footer">
         <h2>Brayan</h2>
         <div class="footer-social">
