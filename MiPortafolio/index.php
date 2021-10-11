@@ -23,9 +23,7 @@
 
     <section class="home" id="home">
         <div class="social">
-            <a href="#"><i class='bx bxl-github'></i></a>
-            <a href="#"><i class='bx bxl-dribbble' ></i></a>
-            <a href="#"><i class='bx bxl-behance' ></i></a>
+            <a href="https://github.com/brayanghost"><i class='bx bxl-github'></i></a> 
         </div>
         <div class="home-img">
             <img src="img/profile.png" alt="">
