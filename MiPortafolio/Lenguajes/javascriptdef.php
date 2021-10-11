@@ -45,7 +45,7 @@
           <span class="title">ARREGLOS</span></a></li>
         <li><a href="#">
           <span class="icon"><i class="fas fa-file-video"></i></span>
-          <span class="title">FUNCIONES FLECHA</span>
+          <span class="title">FUNCIONES</span>
           </a></li>
         <li><a href="#">
           <span class="icon"><i class="fas fa-volleyball-ball"></i></span>
@@ -65,7 +65,11 @@
     <div class="item">
 
     <div class="item">
-    <p><textarea name="comentario" rows="10" cols="170">var vec1 = [];
+<pre> 
+
+<p>FUNCIONES Y FUNCIONES FLECHA:</p>
+  
+var vec1 = [];
 var vec = new Array();
 
 vec.push(100); //insertar un dato en el arreglo
@@ -164,7 +168,101 @@ function mayorVector(vector){
     }
 
     return menor;
- }</textarea></p>
+ }
+
+</pre> 
+
+<p>CLASES SEGUN PROYECTO: </p>
+
+<pre>
+
+class Juego{
+    constructor(nombre,categoria){
+        this._nombre=nombre;
+        this._categoria=categoria;
+    }
+    get nombre(){
+        return this._nombre;
+    }
+
+    set nombre(nombre){
+        this._nombre=nombre;
+    }
+
+    get categoria(){
+        return this._categoria;
+    }
+
+    set categoria(categoria){
+        this._categoria=categoria;
+    }
+}
+
+class Juego extends Stock{
+    constructor(nombre,categoria,disponibilidad,cantidad){
+        super(nombre,categoria);
+        this._disponibilidad=disponibilidad;
+        this._cantidad=cantidad;
+    }
+    get dis_disponibilidad(){
+        return this._disponibilidad;
+    }
+    set ficha(_ficha){
+        this._ficha=ficha;
+    }
+}
+</pre>
+
+<p>EJERCICIO CREACION DE CLASES JS:</p>
+
+<pre>
+class Persona{
+    constructor(nombre,apellido){
+        this._nombre=nombre;
+        this._apellido=apellido;
+    }
+    get nombre(){
+        return this._nombre;
+    }
+
+    set nombre(nombre){
+        this._nombre=nombre;
+    }
+
+    get apellido(){
+        return this._apellido; 
+    }
+
+    nombreCompleto(){
+        return this._nombre+ ' '+this._apellido;
+    }
+
+}
+
+class Aprendiz extends Persona{
+    constructor(nombre,apellido,programa,ficha){
+        super(nombre,apellido);
+        this._programa=programa;
+        this._ficha=ficha;
+    }
+    get programa(){
+        return this._programa;
+    }
+    set ficha(_ficha){
+        this._ficha=ficha;
+    }
+}
+
+var ap=new Aprendiz('Javier','Rodrigo','ADSO','2142345')
+
+const per=new Persona('Angela','Lopez');
+console.log(per.nombreCompleto());
+console.log(per.apellido);
+per.apellido='Sanchez';
+console.log(per.nombreCompleto());
+console.log(per.apellido);  
+</pre>
+ 
     </div>
     <div class="item">
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut sapiente adipisci nemo atque eligendi reprehenderit minima blanditiis eum quae aspernatur!
